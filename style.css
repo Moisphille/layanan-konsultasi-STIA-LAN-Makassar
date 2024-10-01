@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 25px 15px 25px;
+    margin: 50px 435px 50px 435px;
+}
+
+.salam{
+    font-weight: 600;
+}
+
+.answer-require{
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.form-nama{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.identitas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.jenis-layanan-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+
+.status-permohonan-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.unit-kerja-permohonan-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.nomor-aktif-wa-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.tanggal-mulai-kegiatan-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.waktu-jam{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.sampai-jam{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.keterangan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 435px 50px 435px;
+    padding: 25px 25px 30px 27px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.form-nama label{
+    padding-bottom: 10px;
+}
+
+.form-nama input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+span{
+    color: red;
+}
