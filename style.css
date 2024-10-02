@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -12,6 +14,9 @@ body{
     border-radius: 10px;
     padding: 5px 25px 15px 25px;
     margin: 50px 435px 50px 435px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .salam{
@@ -31,6 +36,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .identitas{
@@ -41,6 +49,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .jenis-layanan-form{
@@ -51,6 +62,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 
@@ -62,6 +76,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .unit-kerja-permohonan-form{
@@ -72,6 +89,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .nomor-aktif-wa-form{
@@ -82,6 +102,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .tanggal-mulai-kegiatan-form{
@@ -92,6 +115,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .waktu-jam{
@@ -102,6 +128,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .sampai-jam{
@@ -112,6 +141,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .keterangan{
@@ -122,6 +154,9 @@ body{
     padding: 25px 25px 30px 27px;
     border: 1px solid grey;
     border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .form-nama label{
@@ -132,6 +167,137 @@ body{
     background: none;
     border: none;
     border-bottom: 2px solid grey;
+    height: 3.5vh;
+}
+
+.identitas label{
+    padding-bottom: 10px;
+}
+
+.identitas input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    height: 3.5vh;
+}
+
+.jenis-layanan-form label{
+    padding-bottom: 10px;
+}
+
+.jenis-layanan-form select{
+    border: none;
+    border: 1px solid black;
+    background: none;
+    height: 4vh;
+    text-align: center;
+}
+
+/* .jenis-layanan-form select option{
+    border-bottom: 1px solid black;
+} */
+
+.status-permohonan-form label{
+    padding-bottom: 10px;
+}
+
+.status-permohonan-form select{
+    border: none;
+    border: 1px solid black;
+    background: none;
+    height: 4vh;
+    text-align: center;
+}
+
+.unit-kerja-permohonan-form label{
+    padding-bottom: 10px;
+}
+
+.unit-kerja-permohonan-form input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    height: 3.5vh;
+}
+
+.nomor-aktif-wa-form label{
+    padding-bottom: 10px;
+}
+
+.nomor-aktif-wa-form input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    height: 3.5vh;
+}
+
+.tanggal-mulai-kegiatan-form label{
+    padding-bottom: 10px;
+}
+
+.tanggal-mulai-kegiatan-form input{
+    border: none;
+    border: 1px solid black;
+    background: none;
+    width: 17.5vh;
+    height: 4vh;
+    text-align: center;
+}
+
+.waktu-jam label, .sampai-jam label{
+    padding-bottom: 10px;
+}
+
+.waktu-jam input, .sampai-jam input{
+    border: none;
+    border: 1px solid black;
+    background: none;
+    width: 17.5vh;
+    height: 4vh;
+    text-align: center;
+}
+
+/* .sampai-jam label{
+    padding-bottom: 10px;
+}
+
+.sampai-jam input{
+    border: none;
+    border: 1px solid black;
+    background: none;
+    width: 17.5vh;
+    height: 4vh;
+    text-align: center;
+} */
+
+.keterangan label{
+    padding-bottom: 10px;
+}
+
+.keterangan input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    height: 3.5vh;
+}
+
+.submit{
+    position: relative;
+    left: -250px;
+    display: grid;
+    place-content: center;
+    margin: -30px 0px 50px 0px;
+}
+
+#submit{
+    border: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 12vh;
+    height: 5.4vh;
+    background-color: orange;
+    color: white;
+    
 }
 
 span{

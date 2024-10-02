@@ -91,7 +91,9 @@
             <input type="text"><br>
         </div>
         
-        <input type="submit" name="submit" id="submit">
+        <div class="submit">
+            <input type="submit" value="submit" id="submit">
+        </div>
     </form>
 </body>
 </html>
