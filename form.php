@@ -40,7 +40,7 @@ session_start();
         <div class="jenis-layanan-form">
             <label for="jenis-layanan">Jenis Layanan<span>*</span></label><br>
             <select name="layanan" id="layanan" required><br>
-                <option value="pilih-layanan">Pilih Layanan</option>
+                <option value="">Pilih Layanan</option>
                 <option value="Layanan-Akses-Internet-Berbasis-Wireless" required>Layanan Akses Internet Berbasis Wireless</option>
                 <option value="Layanan-Akses-Internet-Berbasis-Kabel" required>Layanan Akses Internet Berbasis Kabel</option>
                 <option value="Layanan-Permohonan-Email-Institusi(Google Education)" required>Layanan Permohonan Email Institusi (Google Education)</option>
@@ -61,7 +61,7 @@ session_start();
         <div class="status-permohonan-form">
             <label for="status-permohonan">Status Permohonan<span>*</span></label><br>
             <select name="status-permohonan" id="choose-status-permohonan" required><br>
-                <option value="pilih-status" required>Pilih Status</option>
+                <option value="" required>Pilih Status</option>
                 <option value="pegawai" required>Pegawai</option>
                 <option value="mahasiswa" required>Mahasiswa</option>
                 <option value="tamu" required>Tamu</option>
