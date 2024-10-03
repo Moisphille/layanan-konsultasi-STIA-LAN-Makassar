@@ -1,3 +1,9 @@
+<?php 
+require_once "db-connect.php";
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,17 +27,18 @@
 
     <form action="form-handling.php" method="POST">
         <div class="form-nama">
-            <label for="Nama">Nama<span>*</span></label><br>
-            <input type="text"><br>
+            <label for="name">Name:</label><br>
+            <input type="text" name="namamu" required>
+            <br>
         </div>
     
-        <div class="identitas">
-            <label for="NIP/NPM/Nomor-Identitas">NIP/NPM/Nomor Identitas<span>*</span></label><br>
-            <input type="text"><br>
+        <div class="identitas-form">
+            <label for="identitas" >NIP/NPM/Nomor Identitas<span>*</span></label><br>
+            <input type="text" name="identitasmu"><br>
         </div>
 
         <div class="jenis-layanan-form">
-            <label for="Jenis-Layanan">Jenis Layanan<span>*</span></label><br>
+            <label for="jenis-layanan">Jenis Layanan<span>*</span></label><br>
             <select name="layanan" id="layanan"><br>
                 <option value="pilih-layanan">Pilih Layanan</option>
                 <option value="Layanan-Akses-Internet-Berbasis-Wireless">Layanan Akses Internet Berbasis Wireless</option>
@@ -53,7 +60,7 @@
 
         <div class="status-permohonan-form">
             <label for="status-permohonan">Status Permohonan<span>*</span></label><br>
-            <select name="choose-status-permohonan" id="choose-status-permohonan"><br>
+            <select name="status-permohonan" id="choose-status-permohonan"><br>
                 <option value="pilih-status">Pilih Status</option>
                 <option value="pegawai">Pegawai</option>
                 <option value="mahasiswa">Mahasiswa</option>
@@ -62,33 +69,38 @@
         </div>
 
         <div class="unit-kerja-permohonan-form">
-            <label for="unit-kerja-pemohon">Unit Kerja Pemohon<span>*</span></label><br>
-            <input type="text"><br>
+            <label for="unitKkerja">Unit Kerja Pemohon<span>*</span></label><br>
+            <input type="text" name="unitKerja"><br>
         </div>
 
         <div class="nomor-aktif-wa-form">
-            <label for="nomor-aktif-wa">Nomor Aktif WA<span>*</span></label><br>
-            <input type="text"><br>
+            <label for="nomor-wa">Nomor Aktif WA<span>*</span></label><br>
+            <input type="text" name="nomorwamu"><br>
         </div>
 
         <div class="tanggal-mulai-kegiatan-form">
-            <label for="tanggal-mulai-kegiatan">Tanggal Mulai Kegiatan</label><br>
-            <input type="date"><br>
+            <label for="tanggal-mulai">Tanggal Mulai Kegiatan</label><br>
+            <input type="date" name="tanggalmulai"><br>
+        </div>
+
+        <div class="tanggal-akhir-kegiatan-form">
+            <label for="tanggal-akhir">Tanggal Akhir Kegiatan</label><br>
+            <input type="date" name="tanggalakhir"><br>
         </div>
 
         <div class="waktu-jam">
-            <label for="waktu-jam-(khusus-layanan-daring-zoom)">Waktu/Jam (khusus layanan daring zoom)</label><br>
-            <input type="time"><br>
+            <label for="waktu-jam">Waktu/Jam (khusus layanan daring zoom)</label><br>
+            <input type="time" name="waktujam"><br>
         </div>
 
         <div class="sampai-jam">
-            <label for="sampai-jam-(khusus-layanan-daring-zoom)">Sampai Jam (khusus layanan daring zoom)</label><br>
-            <input type="time"><br>
+            <label for="sampai-jam">Sampai Jam (khusus layanan daring zoom)</label><br>
+            <input type="time" name="sampaijam"><br>
         </div>
 
         <div class="keterangan">
             <label for="keterangan">Keterangan (tulis jika ada pesan yang ingin disampaikan) informasi selanjutnya akan kami kirim lewat whatsapp</label><br>
-            <input type="text"><br>
+            <input type="text" name="keteranganmu"><br>
         </div>
         
         <div class="submit">

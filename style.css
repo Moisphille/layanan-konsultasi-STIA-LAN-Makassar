@@ -41,7 +41,7 @@ body{
     font-style: normal;
 }
 
-.identitas{
+.identitas-form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -107,7 +107,7 @@ body{
     font-style: normal;
 }
 
-.tanggal-mulai-kegiatan-form{
+.tanggal-mulai-kegiatan-form, .tanggal-akhir-kegiatan-form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -170,11 +170,11 @@ body{
     height: 3.5vh;
 }
 
-.identitas label{
+.identitas-form label{
     padding-bottom: 10px;
 }
 
-.identitas input{
+.identitas-form input{
     background: none;
     border: none;
     border-bottom: 2px solid grey;
@@ -231,11 +231,13 @@ body{
     height: 3.5vh;
 }
 
-.tanggal-mulai-kegiatan-form label{
+.tanggal-mulai-kegiatan-form label, 
+.tanggal-akhir-kegiatan-form label{
     padding-bottom: 10px;
 }
 
-.tanggal-mulai-kegiatan-form input{
+.tanggal-mulai-kegiatan-form input,
+.tanggal-akhir-kegiatan-form input{
     border: none;
     border: 1px solid black;
     background: none;
