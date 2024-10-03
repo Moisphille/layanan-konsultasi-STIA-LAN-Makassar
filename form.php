@@ -34,48 +34,48 @@ session_start();
     
         <div class="identitas-form">
             <label for="identitas" >NIP/NPM/Nomor Identitas<span>*</span></label><br>
-            <input type="text" name="identitasmu"><br>
+            <input type="text" name="identitasmu" required><br>
         </div>
 
         <div class="jenis-layanan-form">
             <label for="jenis-layanan">Jenis Layanan<span>*</span></label><br>
-            <select name="layanan" id="layanan"><br>
+            <select name="layanan" id="layanan" required><br>
                 <option value="pilih-layanan">Pilih Layanan</option>
-                <option value="Layanan-Akses-Internet-Berbasis-Wireless">Layanan Akses Internet Berbasis Wireless</option>
-                <option value="Layanan-Akses-Internet-Berbasis-Kabel">Layanan Akses Internet Berbasis Kabel</option>
-                <option value="Layanan-Permohonan-Email-Institusi(Google Education)">Layanan Permohonan Email Institusi (Google Education)</option>
-                <option value="Layanan-Pembuatan-Aplikasi(Internal)">Layanan Pembuatan Aplikasi (Internal)</option>
-                <option value="Layanan-Maintenance-Upgrade-Aplikasi(Internal)">Layanan Maintenance-Upgrade Aplikasi(Internal)</option>
-                <option value="Layanan-Kegiatan-Daring(Internal)">Layanan Kegiatan Daring (Zoom)</option>
-                <option value="Layanan-Maintenance-Perbaikan-Printer-Leptop-Pc">Layanan Maintenance-Perbaikan Printer-Leptop-Pc</option>
-                <option value="Layanan-Maintenance-Pemeliharaan Sarana Penunjang Akses Jaringan Internet">Layanan Maintenance-Pemeliharaan Sarana Penunjang Akses Jaringan Internet</option>
-                <option value="Layanan-Pembuatan-Website">Layanan Pembuatan Website</option>
-                <option value="Layanan-Maintenance-Perbaikan-Website">Layanan Maintenance-Perbaikan Website</option>
-                <option value="Layanan-Domain-dan-Hosting (Internal)">Layanan Domain dan Hosting (Internal)</option>
-                <option value="Layanan-Permintaan-Canva-For-Education">Layanan Permintaan Canva For Education</option>
-                <option value="Layanan-Instalasi-Aplikasi-Server-Internal">Layanan Instalasi Aplikasi Server Internal</option>
+                <option value="Layanan-Akses-Internet-Berbasis-Wireless" required>Layanan Akses Internet Berbasis Wireless</option>
+                <option value="Layanan-Akses-Internet-Berbasis-Kabel" required>Layanan Akses Internet Berbasis Kabel</option>
+                <option value="Layanan-Permohonan-Email-Institusi(Google Education)" required>Layanan Permohonan Email Institusi (Google Education)</option>
+                <option value="Layanan-Pembuatan-Aplikasi(Internal)" required>Layanan Pembuatan Aplikasi (Internal)</option>
+                <option value="Layanan-Maintenance-Upgrade-Aplikasi(Internal)" required>Layanan Maintenance-Upgrade Aplikasi(Internal)</option>
+                <option value="Layanan-Kegiatan-Daring(Internal)" required>Layanan Kegiatan Daring (Zoom)</option>
+                <option value="Layanan-Maintenance-Perbaikan-Printer-Leptop-Pc" required>Layanan Maintenance-Perbaikan Printer-Leptop-Pc</option>
+                <option value="Layanan-Maintenance-Pemeliharaan Sarana Penunjang Akses Jaringan Internet" required>Layanan Maintenance-Pemeliharaan Sarana Penunjang Akses Jaringan Internet</option>
+                <option value="Layanan-Pembuatan-Website" required>Layanan Pembuatan Website</option>
+                <option value="Layanan-Maintenance-Perbaikan-Website" required>Layanan Maintenance-Perbaikan Website</option>
+                <option value="Layanan-Domain-dan-Hosting (Internal)" required>Layanan Domain dan Hosting (Internal)</option>
+                <option value="Layanan-Permintaan-Canva-For-Education" required>Layanan Permintaan Canva For Education</option>
+                <option value="Layanan-Instalasi-Aplikasi-Server-Internal" required>Layanan Instalasi Aplikasi Server Internal</option>
                 <option value="Layanan-CCTV">Layanan CCTV</option>
             </select><br>
         </div>
 
         <div class="status-permohonan-form">
             <label for="status-permohonan">Status Permohonan<span>*</span></label><br>
-            <select name="status-permohonan" id="choose-status-permohonan"><br>
-                <option value="pilih-status">Pilih Status</option>
-                <option value="pegawai">Pegawai</option>
-                <option value="mahasiswa">Mahasiswa</option>
-                <option value="tamu">Tamu</option>
+            <select name="status-permohonan" id="choose-status-permohonan" required><br>
+                <option value="pilih-status" required>Pilih Status</option>
+                <option value="pegawai" required>Pegawai</option>
+                <option value="mahasiswa" required>Mahasiswa</option>
+                <option value="tamu" required>Tamu</option>
             </select><br>
         </div>
 
         <div class="unit-kerja-permohonan-form">
             <label for="unitKkerja">Unit Kerja Pemohon<span>*</span></label><br>
-            <input type="text" name="unitKerja"><br>
+            <input type="text" name="unitKerja" required><br>
         </div>
 
         <div class="nomor-aktif-wa-form">
             <label for="nomor-wa">Nomor Aktif WA<span>*</span></label><br>
-            <input type="text" name="nomorwamu"><br>
+            <input type="text" name="nomorwamu" required><br>
         </div>
 
         <div class="tanggal-mulai-kegiatan-form">
